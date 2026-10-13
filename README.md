@@ -38,7 +38,7 @@ A set of engineering projects that together model a miniature banking technology
 | --- | --- | --- |
 | [`corebank-ledger`](https://github.com/Adetlo/corebank-ledger) | Published | Production-style double-entry ledger demonstrating transaction integrity, idempotency, atomic posting, reversals and reconciliation |
 | [`txn-data-pipeline`](https://github.com/Adetlo/txn-data-pipeline) | Published | Production-style financial transaction pipeline demonstrating validation, data quality, idempotent ingestion, quarantine, reconciliation, lineage and analytics-ready modelling |
-| `fraud-detection-ml` | Planned | Synthetic financial transaction fraud and anomaly detection using machine-learning and risk-scoring techniques |
+| [`fraud-detection-ml`](https://github.com/Adetlo/fraud-detection-ml) | Published | Fraud risk scoring and decision-support system demonstrating temporal validation, leakage-safe feature engineering, class imbalance handling, threshold optimisation, explainability and drift monitoring |
 | `entra-id-toolkit` | Planned | Microsoft Entra / Microsoft Graph identity governance and security engineering toolkit |
 | `secure-banking-api` | Planned | Secure-by-design banking-style REST API with authentication, audit logging, validation, and security controls |
 | `platform-devops-blueprints` | Planned | Reusable CI/CD, Docker, GitHub Actions, and infrastructure patterns for the engineering portfolio |
