@@ -10,11 +10,39 @@ London, United Kingdom
 
 ## About
 
-More than ten years in banking technology — from core banking analysis and software engineering to heading the IT function of an international bank's London branch.
+More than ten years in banking technology, from core banking analysis and software engineering to heading the IT function of an international bank's London branch. The combination is what makes the background different: deep **banking domain** knowledge (core banking, payments, treasury, reconciliation, financial reporting), hands-on **software engineering**, **data & AI** applied to financial services, **security and identity** in regulated environments, and **technology leadership** across international banking operations.
 
-My work sits at an intersection that rarely lives in one person: deep **banking domain** knowledge (core banking, payments, treasury, reconciliation, financial reporting), hands-on **software engineering**, **data & AI** applied to financial services, **security and identity** in regulated environments, and **technology leadership** across international banking operations, automation, and infrastructure.
+This profile holds source code, architecture and engineering work. The career story, banking project case studies and MSc Data Science work live in my [professional portfolio](https://adetlo.github.io/eportofolio/).
 
-This profile is where I publish source code, architecture, and engineering work. The full professional story — career journey, banking project case studies, and MSc Data Science work — lives in my [professional portfolio](https://adetlo.github.io/eportofolio/).
+## Featured Engineering Projects
+
+Three independently runnable, production-style projects that follow one financial transaction lifecycle: **record it, curate it, score it**. Each ships a full test suite, CI, Docker and architecture decision records, and uses synthetic data only.
+
+| Project | What it demonstrates | Stack · CI |
+| --- | --- | --- |
+| **[corebank-ledger](https://github.com/Adetlo/corebank-ledger)**<br/>*Financial transaction integrity* | Production-style double-entry ledger demonstrating financial transaction integrity, atomic posting, idempotency, immutable postings, reversals and reconciliation | Python · FastAPI · PostgreSQL<br/>[![CI](https://github.com/Adetlo/corebank-ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/Adetlo/corebank-ledger/actions/workflows/ci.yml) |
+| **[txn-data-pipeline](https://github.com/Adetlo/txn-data-pipeline)**<br/>*Data quality, reconciliation and lineage* | Production-style financial transaction pipeline demonstrating multi-format ingestion, data quality controls, idempotent processing, quarantine, reconciliation, lineage and analytics-ready modelling | Python · Parquet · DuckDB · PostgreSQL<br/>[![CI](https://github.com/Adetlo/txn-data-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Adetlo/txn-data-pipeline/actions/workflows/ci.yml) |
+| **[fraud-detection-ml](https://github.com/Adetlo/fraud-detection-ml)**<br/>*Risk scoring, model governance and monitored inference* | Fraud risk scoring and decision-support system demonstrating temporal validation, leakage-safe features, class imbalance handling, threshold optimisation, explainability and drift monitoring | Python · scikit-learn · XGBoost · FastAPI<br/>[![CI](https://github.com/Adetlo/fraud-detection-ml/actions/workflows/ci.yml/badge.svg)](https://github.com/Adetlo/fraud-detection-ml/actions/workflows/ci.yml) |
+
+```mermaid
+flowchart LR
+    A[CoreBank Ledger] --> B[Transaction Data Pipeline]
+    B --> C[Fraud Detection ML]
+
+    A --> A1[Transaction integrity]
+    B --> B1[Data quality · Reconciliation · Lineage]
+    C --> C1[Risk scoring · Model governance · Monitored inference]
+```
+
+The ledger records transactions, the pipeline validates and reconciles their exports, and the ML service scores the curated result. The integration is conceptual rather than live: each repository defines its own contract and sample data, so any one of them can be cloned and run on its own.
+
+## Next Engineering Projects
+
+Planned for the same portfolio; not yet published.
+
+- `entra-id-toolkit` — Microsoft Entra / Microsoft Graph identity governance and security engineering toolkit
+- `secure-banking-api` — Secure-by-design banking-style REST API with authentication, audit logging, validation and security controls
+- `platform-devops-blueprints` — Reusable CI/CD, Docker, GitHub Actions and infrastructure patterns for the engineering portfolio
 
 ## Core Expertise
 
@@ -28,24 +56,11 @@ This profile is where I publish source code, architecture, and engineering work.
 | **Security & DevOps** | Cybersecurity · Docker · GitHub Actions · CI/CD · Secure software engineering |
 | **Databases** | Oracle · PostgreSQL · SQLite · MySQL |
 
-Core banking runs on enterprise platforms — COBOL, AIX, and Oracle remain first-class skills here, alongside the modern Python, cloud, and AI stack.
-
-## Engineering Portfolio
-
-A set of engineering projects that together model a miniature banking technology estate. Each repository will be linked here as it reaches a polished first release.
-
-| Project | Status | Description |
-| --- | --- | --- |
-| [`corebank-ledger`](https://github.com/Adetlo/corebank-ledger) | Published | Production-style double-entry ledger demonstrating transaction integrity, idempotency, atomic posting, reversals and reconciliation |
-| [`txn-data-pipeline`](https://github.com/Adetlo/txn-data-pipeline) | Published | Production-style financial transaction pipeline demonstrating validation, data quality, idempotent ingestion, quarantine, reconciliation, lineage and analytics-ready modelling |
-| [`fraud-detection-ml`](https://github.com/Adetlo/fraud-detection-ml) | Published | Fraud risk scoring and decision-support system demonstrating temporal validation, leakage-safe feature engineering, class imbalance handling, threshold optimisation, explainability and drift monitoring |
-| `entra-id-toolkit` | Planned | Microsoft Entra / Microsoft Graph identity governance and security engineering toolkit |
-| `secure-banking-api` | Planned | Secure-by-design banking-style REST API with authentication, audit logging, validation, and security controls |
-| `platform-devops-blueprints` | Planned | Reusable CI/CD, Docker, GitHub Actions, and infrastructure patterns for the engineering portfolio |
+Core banking runs on enterprise platforms: COBOL, AIX and Oracle remain first-class skills here, alongside the modern Python, cloud and AI stack.
 
 ## Professional Portfolio
 
-For my professional experience, international banking technology journey, project case studies, leadership experience, and MSc Data Science work:
+Career journey, international banking technology experience, project case studies, leadership experience and MSc Data Science work:
 
 **[adetlo.github.io/eportofolio](https://adetlo.github.io/eportofolio/)**
 
@@ -76,5 +91,6 @@ For my professional experience, international banking technology journey, projec
 ## Connect
 
 - **GitHub** — [github.com/Adetlo](https://github.com/Adetlo)
+- **LinkedIn** — [linkedin.com/in/ade-putra-tio-aldino-17990753](https://www.linkedin.com/in/ade-putra-tio-aldino-17990753/)
 - **Professional portfolio** — [adetlo.github.io/eportofolio](https://adetlo.github.io/eportofolio/)
 - **Email** — [adeputratio@gmail.com](mailto:adeputratio@gmail.com)
