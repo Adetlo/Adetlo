@@ -93,4 +93,4 @@ Career journey, international banking technology experience, project case studie
 - **GitHub** — [github.com/Adetlo](https://github.com/Adetlo)
 - **LinkedIn** — [linkedin.com/in/ade-putra-tio-aldino-17990753](https://www.linkedin.com/in/ade-putra-tio-aldino-17990753/)
 - **Professional portfolio** — [adetlo.github.io/eportofolio](https://adetlo.github.io/eportofolio/)
-- **Email** — [adeputratio@gmail.com](mailto:adeputratio@gmail.com)
+- **Email** — [putratioaldino@gmail.com](mailto:putratioaldino@gmail.com)
