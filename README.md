@@ -36,7 +36,7 @@ A set of engineering projects that together model a miniature banking technology
 
 | Project | Status | Description |
 | --- | --- | --- |
-| `corebank-ledger` | In Development | Double-entry banking ledger demonstrating transaction posting, balance invariants, idempotency, and financial-system engineering |
+| [`corebank-ledger`](https://github.com/Adetlo/corebank-ledger) | Published | Production-style double-entry ledger demonstrating transaction integrity, idempotency, atomic posting, reversals and reconciliation |
 | `txn-data-pipeline` | Planned | Financial transaction ingestion, validation, transformation, reconciliation, and data-quality pipeline |
 | `fraud-detection-ml` | Planned | Synthetic financial transaction fraud and anomaly detection using machine-learning and risk-scoring techniques |
 | `entra-id-toolkit` | Planned | Microsoft Entra / Microsoft Graph identity governance and security engineering toolkit |
